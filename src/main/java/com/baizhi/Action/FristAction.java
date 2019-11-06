@@ -21,6 +21,8 @@ public class FristAction {
     //这是远程连接
 
 
+	//这是git
+	
     @RequestMapping("/a")
     public String a(MultipartFile upload, HttpSession session)throws Exception{
         String realPath = session.getServletContext().getRealPath("/upload");
