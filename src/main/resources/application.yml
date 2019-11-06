@@ -1,0 +1,12 @@
+server:
+  port: 8989
+  context-path: /SpringBoot
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+  http:
+    multipart:
+      max-file-size: 100000000
+      max-request-size: 100000000
