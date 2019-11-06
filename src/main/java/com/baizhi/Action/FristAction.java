@@ -17,6 +17,8 @@ import java.io.File;
 @Controller
 @RequestMapping("/first")
 public class FristAction {
+    
+    //这是远程连接
 
 
     @RequestMapping("/a")
